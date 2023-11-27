@@ -52,7 +52,7 @@
 <body>
 
 	<nav class="navMenu  border">
-		<a id="home" onclick="navigate(https://hagar-nahari.notion.site/Hagar-Nahari-UX-UI-Designer-538fca7b8e864b8f9d2b539c4b199e50?pvs=4)" href="#">  Home</a>
+		<a id="home" onclick="navigate(this.id)" href="#">  Home</a>
 		<a id="inbox" onclick="navigate(this.id)" href="#">  Inbox</a>
 		<a id="week" onclick="navigate(this.id)" href="#">  Planner</a>
 		<a id="projects" onclick="navigate(this.id)" href="#">  Projects</a>
@@ -75,7 +75,7 @@
 		function navigate(id) {
 
 			if (id == 'home')
-				window.open("https://example.com", '_blank').focus();
+				window.open("https://www.notion.so/hagar-nahari/Hagar-Nahari-UX-UI-Designer-538fca7b8e864b8f9d2b539c4b199e50", '_blank').focus();
 			else if (id == "inbox")
 				window.open("https://example.com", '_blank').focus();
 			else if (id == "week")
